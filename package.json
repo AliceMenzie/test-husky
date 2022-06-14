@@ -25,12 +25,11 @@
     "format": "prettier --write .",
     "lint": "eslint src/*",
     "lint:fix": "eslint src/* --fix"
-    
   },
   "husky": {
     "hooks": {
-    "pre-commit": "npm run test:no-watch && npm run format"
-  } 
+      "pre-commit": "npm run test:no-watch && npm run format"
+    }
   },
   "eslintConfig": {
     "extends": [
